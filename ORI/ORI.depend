@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1509478192 source:c:\users\paulo\dropbox\trabalho ori\ori\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<Register.h>
+	<Block.h>
+
+1509478166 c:\users\paulo\dropbox\trabalho ori\ori\include\register.h
+	"Field.h"
+
+1509478482 c:\users\paulo\dropbox\trabalho ori\ori\include\field.h
+	<iostream>
+	<stdio.h>
+
+1509478265 c:\users\paulo\dropbox\trabalho ori\ori\include\block.h
+	"Register.h"
+	"Field.h"
+

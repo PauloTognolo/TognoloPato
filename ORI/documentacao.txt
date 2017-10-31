@@ -1,0 +1,28 @@
+DOCUMENTAÇÃO NeymarTrends (arquivo com registros de música) - C++
+
+Arquivo:
+	
+	- Sem ordenação de registros;
+
+	- Registros de tamanho fixo de 100 bytes
+	
+	- Campos de tamanho fixo, sendo eles:
+		- Nome: 35 bytes
+		- Artista: 23 bytes
+		- Álbum: 34 bytes
+		- Ano: 4 bytes
+		- Duração: 4 bytes
+
+	- Blocos de 512 bytes, controle de blocos habilitado (a cada 5 registros, pula-se 12 bytes)
+
+	- Estrutura do bloco: 100 bytes * 5 (5 registros), 5 bytes para indicar remoção lógica (iniciado em 00000), 1 byte para indicar número de registros preenchidos e válidos do bloco (iniciado em 0), 5 bytes de filling (_____), 1 byte sinalizador do final do bloco (#). -> Na classe Block, filling = "_____#".
+
+Programa:
+
+	- Criação de arquivo (pode sobrescrever - alertar) - PATO
+	- Inserção de registro, aproveitando espaços de remoções - PATO
+	- Busca de registros por nome (se repetido, retornar 1ª ocorrência) - SERVIDONI
+	- Remoção após busca (remoção lógica) - SERVIDONI
+	- Listagem dos registros na ordem física - AMANDA
+	- Compactação (eliminação de espaços disponíveis e blocos vazios) - AMANDA
+	- Inserção de dados aleatórios em lote //Se tivermos tempo

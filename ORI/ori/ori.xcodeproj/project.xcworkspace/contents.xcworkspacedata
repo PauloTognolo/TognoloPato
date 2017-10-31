@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../main.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../include/neymar_file.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../src/neymar_file.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../src/Block.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../src/Field.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../src/Register.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../include/Block.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../include/Field.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../include/Register.h">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
